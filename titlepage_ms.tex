@@ -1,0 +1,56 @@
+\begin{titlepage}
+\newgeometry{top=2.7cm,bottom=1cm,left=3.2cm}
+\definecolor{capri}{rgb}{0.0, 0.75, 1.0}
+%left colorfill
+
+\begin{tikzpicture}[remember picture, overlay]
+  \node [anchor=north west, inner sep=0pt]
+    at (current page.north west)
+    {
+      \begin{tikzpicture}[every node/.append style = {anchor=center}]
+        \begin{scope}[blend group = soft light]
+          \fill[capri!100]   ( 120:1) rectangle (20mm, 310mm);
+        \end{scope}
+      \end{tikzpicture}
+    };
+\end{tikzpicture}
+
+\begin{tabular}[\textwidth]{b{8cm}c}
+
+   \includegraphics[width=40mm, height=40mm]{1200px-IIT_Madras_Logo.svg.png}  & \shortstack[l]{DEPARTMENT OF \\ COMPUTER SCIENCE AND ENGINEERING \\ INDIAN INSTITUTE OF \\ TECHNOLOGY \\ MADRAS \\ CHENNAI-600 036} \\
+   
+\end{tabular}
+
+\vspace{-0.4cm}
+
+\hspace{-0.75cm} \rule{19cm}{1mm}
+
+\vspace{0.4cm}
+\hspace{4.5cm} %adjust this to put the title in the center of the page
+\begin{tabular}{c}
+     {\normalfont\selectfont{\Huge \textbf{Title of the thesis}}} \\
+     %{\normalfont\selectfont{\Huge \textbf{Second line of title}}} 
+\end{tabular}
+
+\vspace*{1.5cm} %b/w title and graphic
+\hspace{5cm} %using manual spacing instead of "center" tag, to bring text in the center of white part.
+\begin{tabular}{c}
+     \vspace{1cm}\includegraphics[width=40mm, height=40mm]{istockphoto-1157569047-612x612.jpg}\\
+     
+     
+     
+     \vspace{-0.25cm}\textit{A thesis}\\
+     \vspace{-0.25cm}\textit{Submitted by}\\
+     \vspace{2cm}
+     \textbf{NAME}\\
+     
+     
+     \vspace{-0.25cm}\textit{For the award of the degree}\\
+     \vspace{-0.25cm}\textit{Of}\\
+     \vspace{-0.25cm}\textbf{MASTER OF SCIENCE by}\\
+     \vspace{-0.25cm}\textbf{Research}\\
+     Month, Year
+    
+\end{tabular}\\
+
+\end{titlepage}

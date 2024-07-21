@@ -1,0 +1,52 @@
+\begin{titlepage}
+\newgeometry{top=2.7cm,bottom=1cm,left=3.2cm}
+%left colorfill
+\begin{tikzpicture}[remember picture, overlay]
+  \node [anchor=north west, inner sep=0pt]
+    at (current page.north west)
+    {
+      \begin{tikzpicture}[every node/.append style = {anchor=center}]
+        \begin{scope}[blend group = soft light]
+          \fill[black!100]   ( 120:1) rectangle (20mm, 310mm);
+        \end{scope}
+      \end{tikzpicture}
+    };
+\end{tikzpicture}
+
+
+\begin{tabular}[\textwidth]{b{8cm}c}
+
+   \includegraphics[width=40mm, height=40mm]{1200px-IIT_Madras_Logo.svg.png}  & \shortstack[l]{DEPARTMENT OF \\ COMPUTER SCIENCE AND ENGINEERING \\ INDIAN INSTITUTE OF \\ TECHNOLOGY \\ MADRAS \\ CHENNAI-600 036} \\
+   
+\end{tabular}
+
+%\vspace{0cm}
+
+\hspace{-5cm} \rule{23cm}{1mm}
+
+\vspace{1cm}
+\hspace{5cm} %using manual spacing instead of "center" tag, to bring text in the center of white part.
+\begin{tabular}{c}
+     \vspace{2cm}
+     {\normalfont\selectfont
+{\Huge \bf Title of the Thesis}
+    }\\
+     
+     \vspace{1cm}\includegraphics[width=40mm, height=40mm]{istockphoto-1157569047-612x612.jpg}\\
+     
+     
+     
+     \vspace{-0.25cm}\textit{A thesis}\\
+     \vspace{-0.25cm}\textit{Submitted by}\\
+     \vspace{2cm}
+     \textbf{NAME}\\
+     
+     
+     \vspace{-0.25cm}\textit{For the award of the degree}\\
+     \vspace{-0.25cm}\textit{Of}\\
+     \vspace{-0.25cm}\textbf{DOCTOR OF PHILOSOPHY}\\
+     Month, Year
+    
+\end{tabular}\\
+
+\end{titlepage}
